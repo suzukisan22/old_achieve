@@ -6,10 +6,12 @@
       <%= devise_error_messages! %>
 
       <div class="field">
+        <%= f.label :メールアドレス %>
         <%= f.email_field :email, autofocus: true, class: "form-control", placeholder: "メールアドレス" %>
       </div>
 
       <div class="field">
+        <%= f.label :パスワード %>
         <%= f.password_field :password, autocomplete: "off", class: "form-control", placeholder: "パスワード" %>
       </div>
 
